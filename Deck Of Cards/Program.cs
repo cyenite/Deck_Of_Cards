@@ -16,7 +16,7 @@ namespace Deck_Of_Cards
         static void Main(string[] args)
         {
             
-            //declarations:
+            //Declaration done here:
             string title = "temp";
 
             string[] suitArr = { "Clubs", "Spades", "Diamonds", "Hearts", };
@@ -26,6 +26,7 @@ namespace Deck_Of_Cards
             int z = 0;
             card c = new card(); // array of objects
 // create property of each card
+            
             for (int x = 0; x < 13; x++)
             {
                 title = cardArr[x] + " of temp";
