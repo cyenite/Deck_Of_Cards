@@ -44,7 +44,7 @@ namespace Deck_Of_Cards
             {
                 Console.WriteLine(c[p]);
             }
-            ReadLine();
+            Console.ReadLine();
         }
     }
 }
