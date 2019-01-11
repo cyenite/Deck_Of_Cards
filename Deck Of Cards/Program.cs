@@ -25,7 +25,7 @@ namespace Deck_Of_Cards
 
             int z = 0;
             card c = new card(); // array of objects
-// create property of each card
+// Property of each card created here 
             
             for (int x = 0; x < 13; x++)
             {
@@ -44,8 +44,7 @@ namespace Deck_Of_Cards
             {
                 Console.WriteLine(c[p]);
             }
-
-            Console.ReadLine();
+            ReadLine();
         }
     }
 }
